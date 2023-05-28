@@ -28,7 +28,7 @@ def upload_to_MongoDB(api_key, channel_id):
 
 def view_channel_name():
     
-    client = MongoClient(f"mongodb+srv://iampraveens:databaseentry@iampraveens.pdv2nqk.mongodb.net/?retryWrites=true&w=majority")
+    client = MongoClient(f"mongodb+srv://iampraveens:yourpassword@iampraveens.pdv2nqk.mongodb.net/?retryWrites=true&w=majority")
     
     database = client.project_testing
     collection = database.channel_data
