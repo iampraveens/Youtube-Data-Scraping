@@ -21,7 +21,7 @@ def convert_duration(duration):
 
 def connect_MongoDB():
     
-    client = MongoClient("mongodb+srv://iampraveens:databaseentry@iampraveens.pdv2nqk.mongodb.net/?retryWrites=true&w=majority")
+    client = MongoClient("mongodb+srv://iampraveens:yourpassword@iampraveens.pdv2nqk.mongodb.net/?retryWrites=true&w=majority")
     
     database = client.project_testing
     collection = database.channel_data
