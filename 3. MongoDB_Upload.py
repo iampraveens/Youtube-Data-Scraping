@@ -6,7 +6,7 @@ from main import bind_data
 def upload_to_MongoDB(api_key, channel_id):
     
     
-    client = MongoClient(f"mongodb+srv://iampraveens:databaseentry@iampraveens.pdv2nqk.mongodb.net/?retryWrites=true&w=majority")
+    client = MongoClient(f"mongodb+srv://iampraveens:yourpassword@iampraveens.pdv2nqk.mongodb.net/?retryWrites=true&w=majority")
     
     upload = bind_data(api_key, channel_id)
     
