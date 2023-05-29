@@ -4,7 +4,7 @@ import pandas as pd
 hostname = 'localhost'
 dbname = 'Youtube_Scraping'
 username = 'postgres'
-pwd = '#Praveenvishnu17'
+pwd = 'yourpassword'
 port_id = '5432'
 
 connection = pg2.connect(
