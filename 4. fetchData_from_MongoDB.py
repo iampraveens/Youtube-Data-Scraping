@@ -99,7 +99,7 @@ def commentStats_from_MongoDB():
                         'channel_name': Channel_name,
                         'comment_id': comment.get('Comment_Id'),
                         'video_id': video_id.get('Video_Id'),
-                        'commen_text': comment.get('Comment_Text'),
+                        'comment_text': comment.get('Comment_Text'),
                         'comment_author': comment.get('Comment_Author'),
                         'commentPublishedAt': pd.to_datetime(comment.get('Comment_PublishedAt'))
                     }
